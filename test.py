@@ -5,6 +5,29 @@ t = Turtle()
 
 t.shape('turtle')
 
-t.forward(200)
+
+
+def square(x):
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+
+def equalsides(x):
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+
+def rectangle():
+    t.left(90)
+    t.forward()
+    
+
 
 turtle.done()
