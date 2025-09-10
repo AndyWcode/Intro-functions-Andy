@@ -6,15 +6,7 @@ t = Turtle()
 t.shape('turtle')
 
 
-
-def square(x):
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
+# Answer for intro.md
 
 def equalsides(x):
     t.left(120)
@@ -24,10 +16,17 @@ def equalsides(x):
     t.left(120)
     t.forward(x)
 
-def rectangle():
+def rectangle(x, y):
+    t.forward(x)
     t.left(90)
-    t.forward()
-    
+    t.forward(y)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(y)
+
+equalsides(90)
+rectangle(125,100)
 
 
 turtle.done()
