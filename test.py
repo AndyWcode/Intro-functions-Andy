@@ -52,18 +52,17 @@ t.speed(10)
 #         t.left(5)
 #         size += 5
         
-def star(x):
-    for i in range(5):  
-        t.forward(x)
-        t.left(144)
+# def star(x):
+#     for i in range(5):  
+#         t.forward(x)
+#         t.left(144)
         
-def loopstar():
-    size = 5
-    for i in range (60):
-        star(size)
-        t.left(5)
-        size +=5
+# def loopstar():
+#     size = 5
+#     for i in range (60):
+#         star(size)
+#         t.left(5)
+#         size +=5
 
-loopstar()
 
 turtle.done()
