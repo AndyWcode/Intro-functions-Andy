@@ -70,13 +70,13 @@ t.speed(10)
 #         t.left(144)
         
 # def loopstar():
-#     size = 5
+#     size = 15
 #     for i in range (60):
 #         star(size)
 #         t.left(5)
 #         size +=5
 
-    
+
 
 turtle.done()
 
