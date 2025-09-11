@@ -9,24 +9,22 @@ t.shape('turtle')
 # Answer for intro.md
 
 def equalsides(x):
-    t.left(120)
-    t.forward(x)
-    t.left(120)
-    t.forward(x)
-    t.left(120)
-    t.forward(x)
+    for side in range(3):
+        t.forward(x)
+        t.left(120)
 
 def rectangle(x, y):
-    t.forward(x)
-    t.left(90)
-    t.forward(y)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(y)
+    for side in range(2):
+        t.forward(x)
+        t.left(90)
+        t.forward(y)
+        t.left(90)
 
-equalsides(90)
-rectangle(125,100)
-
-
+def square(x):
+    for square in range(4):
+        
+        t.forward(x)
+        t.left(90)
+        
 turtle.done()
+
