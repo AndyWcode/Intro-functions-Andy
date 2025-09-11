@@ -25,7 +25,9 @@ def star(x):
         t.left(144)
 
 def starloop():
-    size = 
+    size = 5
+    for i in range(60):
+        
 
     
 
